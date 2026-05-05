@@ -12,6 +12,8 @@ except (ValueError, TypeError):
     print('Informe um número.')
 except ZeroDivisionError:
     print('Funcionário não pode ser zero.')
+except KeyboardInterrupt:
+    print('Operação cancelada pelo usuario.')
 else:
     print(f'Média por funcionario: {media_por_funcionario:.2f}')
 # O finally é executado mesmo se dar ou não dar erro.
