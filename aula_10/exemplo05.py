@@ -7,7 +7,8 @@ try:
     funcionarios = int(input('Total de funcionários: '))
     
     media_por_funcionario = total_produzido / funcionarios
-    
+
+#Exception contem todos os ERROS 
 except Exception as e:
     print(f'Ops! Erro nos valores de entrada: {e}')
 except KeyboardInterrupt:
